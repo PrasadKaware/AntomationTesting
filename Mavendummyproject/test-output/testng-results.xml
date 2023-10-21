@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="6" passed="6" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-10-20T21:08:50 IST" name="Default suite" finished-at="2023-10-20T21:09:04 IST" duration-ms="13838">
+    <groups>
+    </groups>
+    <test started-at="2023-10-20T21:08:50 IST" name="Default test" finished-at="2023-10-20T21:09:04 IST" duration-ms="13838">
+      <class name="swagtest.SwagScript">
+        <test-method is-config="true" signature="Preconditon()[pri:0, instance:swagtest.SwagScript@74235045]" started-at="2023-10-20T21:08:50 IST" name="Preconditon" finished-at="2023-10-20T21:08:59 IST" duration-ms="8818" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Preconditon -->
+        <test-method signature="LogInPage()[pri:1, instance:swagtest.SwagScript@74235045]" started-at="2023-10-20T21:08:59 IST" name="LogInPage" finished-at="2023-10-20T21:09:00 IST" duration-ms="1440" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LogInPage -->
+        <test-method signature="ProductPage()[pri:2, instance:swagtest.SwagScript@74235045]" started-at="2023-10-20T21:09:00 IST" name="ProductPage" finished-at="2023-10-20T21:09:01 IST" duration-ms="793" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ProductPage -->
+        <test-method signature="Kartpage()[pri:3, instance:swagtest.SwagScript@74235045]" started-at="2023-10-20T21:09:01 IST" name="Kartpage" finished-at="2023-10-20T21:09:01 IST" duration-ms="262" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Kartpage -->
+        <test-method signature="Address()[pri:4, instance:swagtest.SwagScript@74235045]" started-at="2023-10-20T21:09:01 IST" name="Address" finished-at="2023-10-20T21:09:03 IST" duration-ms="1322" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Address -->
+        <test-method signature="Confirm()[pri:5, instance:swagtest.SwagScript@74235045]" started-at="2023-10-20T21:09:03 IST" name="Confirm" finished-at="2023-10-20T21:09:03 IST" duration-ms="248" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Confirm -->
+        <test-method signature="Done()[pri:6, instance:swagtest.SwagScript@74235045]" started-at="2023-10-20T21:09:03 IST" name="Done" finished-at="2023-10-20T21:09:03 IST" duration-ms="289" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Done -->
+        <test-method is-config="true" signature="close()[pri:0, instance:swagtest.SwagScript@74235045]" started-at="2023-10-20T21:09:03 IST" name="close" finished-at="2023-10-20T21:09:04 IST" duration-ms="442" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+      </class> <!-- swagtest.SwagScript -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
