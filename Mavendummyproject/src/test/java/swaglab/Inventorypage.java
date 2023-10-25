@@ -21,6 +21,17 @@ public class Inventorypage extends SeleniumUtility {
 	
 	@FindBy(className="shopping_cart_link")
 	private WebElement cart;
+	
+	public void Product1() {
+		clickOnElement(productA);
+	}
+	public void Product2() {
+		clickOnElement(productB);
+	}
+	
+	public void Kart() {
+		clickOnElement(cart);
+	}
 	public void Addcart() {
 		clickOnElement(productA);
 		clickOnElement(productB);

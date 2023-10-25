@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="SwagLabTest">
+	<listeners>
+		<listeners class-name="retry.Demotransform" />
+	</listeners>
+	<test name="RetryTest">
+		<classes>
+			<class name="swagtest.SwagScript" />
+		</classes>
+	</test>
+</suite>

@@ -19,6 +19,19 @@ public class Loginpage extends SeleniumUtility {
 	@FindBy(id="login-button")
 	private WebElement loginbutton;
 	
+	public void UserName(String Username) {
+		typeInput(username,Username);
+	}
+	public void PassWord(String Password) {
+		typeInput(password,Password);
+	}
+	public void GetPageTitile() {
+		getCurrentTitleOfApplication();
+	}
+	public void Loginbutton() {
+		clickOnElement(loginbutton);
+	}
+	
 	public void Login(String Username,String Password) {
 		typeInput(username,Username);
 		typeInput(password,Password);

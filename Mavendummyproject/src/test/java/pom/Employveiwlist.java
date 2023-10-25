@@ -67,6 +67,12 @@ public class Employveiwlist extends SeleniumUtility {
 	public void CheckBox() {
 		clickOnElement(check);
 	}
+	public void clickOnprofile() {
+		clickOnElement(profile);
+	}
+	public void Logout() {
+		clickOnElement(logout);
+	}
 
 	public void delEmployedata(String ID) {
 		typeInput(inputID, ID);

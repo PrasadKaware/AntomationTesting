@@ -17,6 +17,16 @@ public class PIMloginpage extends SeleniumUtility{
    private WebElement PasswordInput;
    @FindBy(xpath="//button[@type='submit']")
    private WebElement Loginbutton;
+   
+   public void Username(String username) {
+	   typeInput(UsernameInput,username);
+   }
+   public void Password(String psw) {
+	   typeInput(PasswordInput,psw);
+   }
+   public void clicklogin() {
+	   clickOnElement(Loginbutton);
+   }
    public void getusername(String username,String password) {
 	   typeInput(UsernameInput,username);
 	   typeInput(PasswordInput,password);

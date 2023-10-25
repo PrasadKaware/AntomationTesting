@@ -42,6 +42,7 @@ public class Personaldetails extends SeleniumUtility {
 	private WebElement employlist;
 
 	public void getDate(String date) {
+		//yyyy-mm-dd
 		calendar.clear();
 		calendar.sendKeys(date);
 	}

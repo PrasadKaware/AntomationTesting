@@ -23,6 +23,19 @@ public class Checkoutstepone extends SeleniumUtility {
 	@FindBy(id="continue")
 	private WebElement clickcontinue;
 	
+	public void FristName(String Firstname) {
+		typeInput(firstname,Firstname);
+	}
+	public void LastName(String Lastname) {
+		typeInput(lastname,Lastname);
+	}
+	public void ZipCode(String Zip) {
+		typeInput(zip,Zip);
+	}
+	public void Continue() {
+		clickOnElement(clickcontinue);
+	}
+	
 	public void Filldetaisl(String Firstname,String Lastname,String Zip) {
 		typeInput(firstname,Firstname);
 		typeInput(lastname,Lastname);

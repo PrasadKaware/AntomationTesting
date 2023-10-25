@@ -18,3 +18,4 @@ public class Steptwo extends SeleniumUtility {
 		clickOnElement(finish);
 	}
 }
+//input[@value='Continue']
